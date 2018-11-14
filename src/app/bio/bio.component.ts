@@ -8,9 +8,10 @@ import { Developer } from '../developer';
 })
 export class BioComponent implements OnInit {
   dev:Developer;
-  
+  dev1:Developer;
   constructor() {
     this.dev = new Developer("Monirul","Molla","Java",2008);
+    this.dev1 = new Developer("John","Doe","Angular",2015);
   }
 
   ngOnInit() {
