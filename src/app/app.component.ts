@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'My Angular Sandbox';
   myColor:string = "red";
+
+  changeColor():void {
+    this.myColor = 'green';
+  } 
 }
