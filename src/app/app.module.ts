@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { BioComponent } from './bio/bio.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,
