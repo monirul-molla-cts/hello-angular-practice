@@ -18,4 +18,10 @@ export class DeveloperService {
        getAllDevelopers():Developer[]{
         return this.devs;
       }
+
+
+
+      getDeveloperById(devId:string):Developer{
+				return this.devs.find(x => x.id == devId);
+		}
 }

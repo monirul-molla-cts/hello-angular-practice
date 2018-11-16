@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BioComponent } from './bio/bio.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BioDetailsComponent } from './bio-details/bio-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BioComponent,
-    HomeComponent
+    HomeComponent,
+    BioDetailsComponent
   ],
   imports: [
     BrowserModule,
